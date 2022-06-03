@@ -59,7 +59,29 @@ const updateDates = (selectedDates, instance) => {
     const x = today.setDate(new Date(today).getDate());
 }
 
+const showEmptyDialog = (msg) => {
+    Swal.fire({
+        title: `${msg}`,
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+    })
+}
+
 const save_locally = () => {
+    const checkinDate = $("#checkin-date").val()
+    const checkOutDate = $("#checkout-date").val()
+    if(checkinDate === "" || checkinDate === undefined){
+        showEmptyDialog("Checkin date is required")
+        return;
+    }
+    if(checkOutDate === "" || checkOutDate === undefined){
+        showEmptyDialog("Checkout date is required")
+        return;
+    }
     if (!lock_button) {
         console.log('Save Locally\n Start Date' + start_date + '\n End Date ' + end_date)
         localStorage.setItem('start_date', start_date);
