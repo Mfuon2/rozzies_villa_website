@@ -70,7 +70,7 @@ window.onload = function() {
         window.location.href = '/en';
     } else if (ln === 'de') {
         window.location.href = '/de';
-    } else if (ln === 'nno') {
+    } else if (ln === 'no') {
         window.location.href = '/no';
     } else if (ln === 'es') {
         window.location.href = '/es';
