@@ -56,7 +56,7 @@ const loadCalendar = (rates) => {
     rates.forEach((rate) => {
         calendar.addEvent({
             id: rate.rateId,
-            title: `Price : ${rate.rate}`,
+            title: `Price : $${rate.rate}`,
             start: rate.rateId,
             allDay: true
         })
