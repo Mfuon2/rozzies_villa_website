@@ -46,6 +46,7 @@
     <script src="assets/js/main-calendar.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -53,6 +54,7 @@
         gtag('config', 'G-KX4WN664Q9');
     </script>
 </head>
+
 <body onload="loaderFunction()" style="margin:0;">
     <div id="loader"></div>
     <header id="header2" class="d-flex align-items-center ">
@@ -65,7 +67,7 @@
             <nav class="navbar order-last order-lg-0" id="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto active" href="rooms.html">Rooms</a></li>
+                    <li><a class="nav-link scrollto" href="rooms.html">Rooms</a></li>
                     <li><a class="nav-link scrollto" href="culinaryExperience.html">Culinary Experience</a></li>
                     <li><a class="nav-link scrollto" href="activities.html">Activities</a></li>
                     <li><a class="nav-link scrollto" href="localAttractions.html">Local Attractions</a></li>
@@ -200,30 +202,30 @@
 
     <script type="text/javascript">
         let rates;
-        const listRates = async () => {
-            $.ajax({
-                url: "/api/rates/selected",
-                type: "GET",
-                contentType: "application/json; charset=utf-8",
-                success: function (result) {
-                    const x = JSON.stringify(result)
-                    if (result.success) {
-                        const doc = document.getElementById('calendar').innerHTML = "";
-                        rates = result.data
-                        loadCalendar(rates);
+        const listRates = async() => {
+                $.ajax({
+                    url: "/api/rates/selected",
+                    type: "GET",
+                    contentType: "application/json; charset=utf-8",
+                    success: function(result) {
+                        const x = JSON.stringify(result)
+                        if (result.success) {
+                            const doc = document.getElementById('calendar').innerHTML = "";
+                            rates = result.data
+                            loadCalendar(rates);
+                        }
+                    },
+                    error: function(err) {
+                        console.log(JSON.stringify(err))
+                        return err;
                     }
-                },
-                error: function (err) {
-                    console.log(JSON.stringify(err))
-                    return err;
-                }
-            });
-        }
-        (async function () {
-            const doc = document.getElementById('calendar');
-            doc.innerHTML = "Loading Prices ..."
-            await listRates();
-        })();
+                });
+            }
+            (async function() {
+                const doc = document.getElementById('calendar');
+                doc.innerHTML = "Loading Prices ..."
+                await listRates();
+            })();
 
         const loadCalendar = (rates) => {
             var calendarEl = document.getElementById('calendar');
