@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Beste strandvilla-priser.</title>
+    <title>Beste strandvilla på den kenyanske kysten, Kilifi</title>
 
     <meta name="description" content="Book this villa if you've decided to take your turn  to experience the wonders of this very unique region of the world, The Villa is located on the Kenyan coast.">
     <meta property="og:site_name" content="Rozzie's Beach Villa">
@@ -13,7 +13,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="Hotel">
     <meta property="og:title" content="Best Villa on the kenyan Coast, book now and enjoy your stay. This VIlla is located in Kilifi, Kenya.">
-    <link rel="canonical" href="https://rozziesvilla.co.ke/rooms.html" />
+    <link rel="canonical" href="https://rozziesvilla.co.ke/index.html" />
     <meta name="keywords" content="Villas, Villa, Book a villa in Kenyan coast, Hotels in Kilifi, Hotels in Kilifi Kenya, Hotels in east Africa Coast, Hotels in kenyan coast, Book a villa in Kilifi, Book a hotel in Kilifi, Beach Resort all inclusive, Book a villa in Kenya, Beach hotels in Kenya, Beach Villa in Kilifi, Beach villa on Kenyan coast, Hotels">
     <meta property="og:description" content=" Book this villa if you've decided to take your turn  to experience the wonders of this very unique region of the world, The Villa is located on the Kenyan coast.">
     <meta property="og:site_name" content="Rozzie's Beach Villa">
@@ -35,15 +35,72 @@
     <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../assets/js/main.css" rel="stylesheet">
+    <!--    <link href="../assets/css/flatpickr.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="../assets/css/datepicker.min.css">
+    <style>
+        h1.card-day {
+            font-size: 48px !important;
+        }
+        
+        .card-day {
+            color: #b7902d !important;
+            margin-bottom: 0;
+            font-size: 20px !important;
+            font-weight: 100 !important;
+            font-family: brandon-grotesque, Helvetica, Arial, sans-serif !important;
+        }
+        
+        .card.book-date .card-category,
+        .card.choose-date .card-category {
+            margin-bottom: 2px;
+            color: #b7902d !important;
+            font-size: 20px !important;
+            font-weight: 100 !important;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+        
+        .card.choose-date .card-month {
+            margin: 0;
+            color: #8d847a;
+            font-size: 5px;
+            letter-spacing: 1px;
+        }
+        
+        .form-control:disabled,
+        .form-control[readonly] {
+            background-color: rgba(255, 255, 255, 0.99);
+            opacity: 1;
+            color: #b7902d !important;
+            font-size: 15px !important;
+            font-weight: bold;
+        }
+        
+        .card-body2 {
+            margin: 0;
+            margin-bottom: 4px;
+            color: #b7902d !important;
+            font-size: 20px !important;
+            font-weight: 100 !important;
+            letter-spacing: 1px;
+        }
+        
+        .margin-botom {
+            margin-bottom: 4px;
+        }
+    </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX4WN664Q9"></script>
-    <script src="../assets/js/main-calendar.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -51,22 +108,29 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
+
         gtag('config', 'G-KX4WN664Q9');
     </script>
+
 </head>
+<!-- <script src="../assets/js/lang_localization.js">
+</script> -->
 
 <body onload="loaderFunction()" style="margin:0;">
     <div id="loader"></div>
-    <header id="header2" class="d-flex align-items-center ">
-        <div class="container-fluid container-xxl d-flex align-items-center">
+    <!-- ======= Header ======= -->
+    <header class="d-flex align-items-center " id="header">
+        <div class="container-fluid container-lg d-flex align-items-center">
 
-            <div id="logo" class="me-auto">
-                <a href="index.html" class="scrollto"><img src="../assets/img/logo_14.png" alt="" title=""></a>
+            <div class="me-auto" id="logo">
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!-- <h1><a href="index.html"><span>Rozzies</span> </a></h1> -->
+                <a class="scrollto" href="index.html"><img alt="" src="../assets/img/logo_14.png" title=""></a>
             </div>
 
             <nav class="navbar order-last order-lg-0" id="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.html">Hjem</a></li>
+                    <li><a class="nav-link scrollto active" href="index.html">Hjem</a></li>
                     <li><a class="nav-link scrollto" href="rooms.html">Rom</a></li>
                     <li><a class="nav-link scrollto" href="culinaryExperience.html">Kulinarisk opplevelse</a></li>
                     <li><a class="nav-link scrollto" href="activities.html">Aktiviteter</a></li>
@@ -82,31 +146,38 @@
                             <li><a href="../es">Español <span class="flag-icon flag-icon-es"> </span></a></li>
                             <li><a href="../de">Deutsch<span class="flag-icon flag-icon-it"> </span></a></li>
                             <li><a href="../fr">Français <span class="flag-icon flag-icon-fr .btn-nav "> </span></a></li>
+                            <li><a href="../no">Norsk <span class="flag-icon flag-icon-no"> </span></a></li>
                         </ul>
                     </li>
                 </ul>
+                <!-- <li class="dropdown">
+                        <a href="#"> </span> <i class="bi bi-person"></i></span>
+                        </a>
+                        <ul>
+                            <li> <a class="nav-link scrollto" href="../admin/login">SignIn</a></li>
+                            <li> <a class="nav-link scrollto" href="../admin/register">Register</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <a class="buy-tickets scrollto" href="index.html">Bestill nå</a>
+            <a class="buy-tickets scrollto" href="prices.html">Daglige priser</a>
         </div>
     </header>
-    <section id="placeholder">
-    </section>
-    <section id="speakers-details">
-        <div class="container">
-            <div class="section-header d-none d-sm-block">
-                <h2>Rozzie's Villa Priser
-                </h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="calendar"></div>
-                </div>
-            </div>
-        </div>
+    <!-- End Header -->
 
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container " data-aos="zoom-in" data-aos-delay="100">
+            <h1 class="mb-4 pb-0 d-none d-sm-block">
+                <font color="#87CEEB">Page in this language is Comming</font> <br> <span>Soon!</span><br>
+
+
+
+        </div>
     </section>
-    <br>
+
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -181,87 +252,41 @@
     </footer>
     <!-- End  Footer -->
 
-    <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
+    <div class="modal fade bd-example-modal-lg" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                ... suu
+            </div>
+        </div>
+    </div>
 
+    <a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i
+        class="bi bi-arrow-up-short"></i></a>
+    <script src="../assets/js/jquery.js"></script>
+
+    <!--End of Tawk.to Script-->
     <!-- Vendor JS Files -->
-    <script src="../assets/vendor/aos/aos.js "></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js "></script>
-    <script src="../assets/vendor/php-email-form/validate.js "></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js "></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js "></script>
+    <!--    <script src="../assets/js/flatpickr.js"></script>-->
+
+    <script src="../assets/js/datepicker.min.js"></script>
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/61f3dc799bd1f31184d9cb40/1fqg9af12';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
+    <script type="text/javascript" src="../assets/js/initialize_chekins.no.js">
     </script>
 
-    <script type="text/javascript">
-        let rates;
-        const listRates = async() => {
-                $.ajax({
-                    url: "/api/rates/selected",
-                    type: "GET",
-                    contentType: "application/json; charset=utf-8",
-                    success: function(result) {
-                        const x = JSON.stringify(result)
-                        if (result.success) {
-                            const doc = document.getElementById('calendar').innerHTML = "";
-                            rates = result.data
-                            loadCalendar(rates);
-                        }
-                    },
-                    error: function(err) {
-                        console.log(JSON.stringify(err))
-                        return err;
-                    }
-                });
-            }
-            (async function() {
-                const doc = document.getElementById('calendar');
-                doc.innerHTML = "Loading Prices ..."
-                await listRates();
-            })();
-
-        const loadCalendar = (rates) => {
-            var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',
-                selectable: false,
-                // dateClick: function (info) {
-                //     var event = calendar.getEventById(info.dateStr);
-                //     if (event) {
-                //         event.remove();
-                //     }
-                //     popDialog(this, info)
-                // }
-            });
-            calendar.render();
-            rates.forEach((rate) => {
-                calendar.addEvent({
-                    id: rate.rateId,
-                    title: `Price : $${rate.rate}`,
-                    start: rate.rateId,
-                    allDay: true
-                })
-            })
-        }
-    </script>
 </body>
 
 </html>
