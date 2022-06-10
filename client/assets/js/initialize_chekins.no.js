@@ -38,7 +38,7 @@ let checkout_config = {
         if (x.getDate() < y.getDate()) {
             lock_button = true
             Swal.fire({
-                title: 'Checkout date should be greater than the checkin date',
+                title: 'Utsjekkingsdatoen bør være større enn innsjekkingsdatoen',
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
                 },
