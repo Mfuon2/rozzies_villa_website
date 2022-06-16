@@ -86,7 +86,7 @@ const save_locally = () => {
         console.log('Save Locally\n Start Date' + start_date + '\n End Date ' + end_date)
         localStorage.setItem('start_date', start_date);
         localStorage.setItem('end_date', end_date);
-        return window.location.pathname = "check.html";
+        return window.location.pathname = "da/check.html";
     } else {
         Swal.fire({
             title: 'Udtjekningsdatoen skal være større end indtjekningsdatoen',
