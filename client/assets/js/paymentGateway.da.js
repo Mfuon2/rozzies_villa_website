@@ -124,46 +124,44 @@ const loadCheckoutPage = () => {
 
 
 const makePayment = () => {
-        let errors = []
-        const warning = $("#error-warning")
-        warning.html("")
-        warning.hide()
-        customerName = `${$('#firstName').val()} ${$('#lastName').val()}`
-        phoneNumber = `${$('#phoneNumber').val()}`
-        email = `${$('#emailAddress').val()}`
-        let identityId = `${$('#identityId').val()}`
-        console.log(customerName)
-        if (customerName.length < 5) {
-            errors.push('Kundens navn er påkrævet')
-        }
-        if (phoneNumber.length < 10) {
-            errors.push('Telefonnummer er påkrævet')
-        }
-        if (email.length < 10 && !validEmail(email)) {
-            errors.push('E-mail er påkrævet eller ugyldig
-                ')
-            }
+    let errors = []
+    const warning = $("#error-warning")
+    warning.html("")
+    warning.hide()
+    customerName = `${$('#firstName').val()} ${$('#lastName').val()}`
+    phoneNumber = `${$('#phoneNumber').val()}`
+    email = `${$('#emailAddress').val()}`
+    let identityId = `${$('#identityId').val()}`
+    console.log(customerName)
+    if (customerName.length < 5) {
+        errors.push('Kundens navn er påkrævet')
+    }
+    if (phoneNumber.length < 10) {
+        errors.push('Telefonnummer er påkrævet')
+    }
+    if (email.length < 10 && !validEmail(email)) {
+        errors.push('E-mail er påkrævet eller ugyldig')
+    }
 
-            if (identityId.length < 7) {
-                errors.push('Identitet er påkrævet er påkrævet eller ugyldig
-                    ')
-                }
-                if (errors.length) {
-                    warning.show()
-                    errors.forEach(r => {
-                        warning.append('<li>' + r + '</li>');
-                    })
-                } else {
+    if (identityId.length < 7) {
+        errors.push('Identitet er påkrævet er påkrævet eller ugyldig')
+    }
+    if (errors.length) {
+        warning.show()
+        errors.forEach(r => {
+            warning.append('<li>' + r + '</li>');
+        })
+    } else {
 
-                    rates()
-                }
-            }
+        rates()
+    }
+}
 
-            function validEmail(email) {
-                const regex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
-                return regex.test(email);
-            }
+function validEmail(email) {
+    const regex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
+    return regex.test(email);
+}
 
-            const rates = () => {
-                loadCheckoutPage()
-            }
+const rates = () => {
+    loadCheckoutPage()
+}
