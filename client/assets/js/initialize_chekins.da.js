@@ -79,7 +79,7 @@ const save_locally = () => {
         return;
     }
     if (checkOutDate === "" || checkOutDate === undefined) {
-        showEmptyDialog("Checkout dato er påkrævet")
+        showEmptyDialog("Udtjekningsdato er påkrævet")
         return;
     }
     if (!lock_button) {
