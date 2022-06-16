@@ -64,7 +64,7 @@ const createBooking = async() => {
                 success: function(response) {
 
                     Swal.fire({
-                        html: 'Updating your request...',
+                        html: 'Opdaterer din anmodning...',
                         timer: 3000,
                         timerProgressBar: true,
                         didOpen: () => {
