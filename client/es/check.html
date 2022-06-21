@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Rozzies Villa Check</title>
+    <title>Rozzies Villa Controlar</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -107,8 +107,9 @@
         <div class="container internet" data-aos="fade-up">
 
             <div class="section-header">
-                <h2>Reservation</h2>
-                <p>Check Availability</p>
+                <h2>Reserva</h2>
+                <p>Consultar disponibilidad</p>
+
             </div>
 
             <div class="row availability">
@@ -129,7 +130,8 @@
                     Loading...
                     <div class="card">
                         <div class="card-body">
-                            <a class="btn btn-move-right btn-secondary about-btn to" href="#"> Loading Selected dates prices</a>
+                            <a class="btn btn-move-right btn-secondary about-btn to" href="#"> Cargando precios de fechas seleccionadas...
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -145,13 +147,14 @@
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                    <label class="form-label" for="firstName">First Name</label>
+                                    <label class="form-label" for="firstName">Primer nombre
+                                    </label>
                                     <input name="firstName" type="text" id="firstName" class="form-control form-control-lg" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                    <label class="form-label" for="lastName">Last Name</label>
+                                    <label class="form-label" for="lastName">Apellido</label>
                                     <input name="lastName" type="text" id="lastName" class="form-control form-control-lg" />
                                 </div>
                             </div>
@@ -162,19 +165,20 @@
 
                         <div class="row">
                             <div class="col-md-6 mb-4">
-                                <label class="form-label">Gender</label>
+                                <label class="form-label">Género
+                                </label>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="FEMALE" checked />
-                                    <label class="form-check-label" for="femaleGender">Female</label>
+                                    <label class="form-check-label" for="femaleGender">Femenina</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gender" id="maleGender" value="MALE" />
-                                    <label class="form-check-label" for="maleGender">Male</label>
+                                    <label class="form-check-label" for="maleGender">Masculina</label>
                                 </div>
 
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gender" id="otherGender" value="OTHER" />
-                                    <label class="form-check-label" for="otherGender">Other</label>
+                                    <label class="form-check-label" for="otherGender">Otra</label>
                                 </div>
 
                             </div>
@@ -183,29 +187,32 @@
                             <div class="col-md-6 mb-4 pb-2">
 
                                 <div class="form-outline">
-                                    <label class="form-label" for="emailAddress">Email</label>
+                                    <label class="form-label" for="emailAddress">Correo electrónico</label>
                                     <input name="emailAddress" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="emailAddress" class="form-control form-control-lg" />
                                 </div>
 
                             </div>
                             <div class="col-md-6 mb-4 pb-2">
                                 <div class="form-outline">
-                                    <label class="form-label" for="identityId">National/Passport/Alien ID (To be verified on checkin date)</label>
+                                    <label class="form-label" for="identityId">Nacional/Pasaporte/Identificación de Extranjero (A ser verificado en la fecha de check-in)
+                                    </label>
                                     <input name="identityId" type="text" id="identityId" class="form-control form-control-lg" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-4 pb-2">
                                 <div class="form-outline">
-                                    <label class="form-label" for="phoneNumber">Phone Number</label>
+                                    <label class="form-label" for="phoneNumber">Número de teléfono
+                                    </label>
                                     <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control form-control-lg" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-4 pb-2">
                                 <div class="form-outline">
                                     <div class="form-item">
-                                        <label for="country_selector_code">Choose Country:</label>
+                                        <label for="country_selector_code">Elige país
+                                            :</label>
                                         <select class="form-control form-control-lg" id="country_selector_code" name="country_selector_code">
-                                                <option>Select country</option>
+                                                <option>Seleccionar país</option>
                                                 <option value="AF">Afghanistan</option>
                                                 <option value="AX">Aland Islands</option>
                                                 <option value="AL">Albania</option>
@@ -465,7 +472,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 mb-4 pb-2">
-                                <button id="payNow" type="button" onclick="makePayment()">Pay Now  (</button>
+                                <button id="payNow" type="button" onclick="makePayment()">Pagar ahora
+                                    (</button>
                             </div>
                         </div>
                     </form>
@@ -552,7 +560,7 @@
     <script src="../assets/js/currency.js"></script>
     <!--End of Tawk.to Script-->
 
-    <script src="../assets/js/logic.js"></script>
+    <script src="../assets/js/logic.es.js"></script>
     <script src="../assets/vendor/aos/aos.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -566,7 +574,7 @@
     <script src="../assets/build/js/countrySelect.js"></script>
     <script src="../assets/js/jquery.validate.min.js"></script>
     <script src="https://checkout.flutterwave.com/v3.js"></script>
-    <script src="../assets/js/paymentGateway.js"></script>
+    <script src="../assets/js/paymentGateway.es.js"></script>
 
     <!-- Vendor JS Files -->
     <!--Start of Tawk.to Script-->
