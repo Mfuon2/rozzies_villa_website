@@ -38,8 +38,7 @@ let checkout_config = {
         if (x.getDate() < y.getDate()) {
             lock_button = true
             Swal.fire({
-                title: 'La fecha de salida debe ser posterior a la fecha de entrada
-                ',
+                title: 'La fecha de salida debe ser posterior a la fecha de entrada',
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
                 },
@@ -76,21 +75,21 @@ const save_locally = () => {
     const checkinDate = $("#checkin-date").val()
     const checkOutDate = $("#checkout-date").val()
     if (checkinDate === "" || checkinDate === undefined) {
-        showEmptyDialog("Checkin date is required")
+        showEmptyDialog("La fecha de entrada es obligatoria")
         return;
     }
     if (checkOutDate === "" || checkOutDate === undefined) {
-        showEmptyDialog("Checkout date is required")
+        showEmptyDialog("Se requiere la fecha de salida")
         return;
     }
     if (!lock_button) {
         console.log('Save Locally\n Start Date' + start_date + '\n End Date ' + end_date)
         localStorage.setItem('start_date', start_date);
         localStorage.setItem('end_date', end_date);
-        return window.location.pathname = "check.html";
+        return window.location.pathname = "../es/check.html";
     } else {
         Swal.fire({
-            title: 'Checkout date should be greater than the checkin date',
+            title: 'La fecha de salida debe ser posterior a la fecha de entrada',
             showClass: {
                 popup: 'animate__animated animate__fadeInDown'
             },
@@ -158,7 +157,7 @@ var Tawk_API = Tawk_API || {},
 
             Toast.fire({
                 icon: 'success',
-                title: 'Your booking was successful. Thank you for choosing our villa.'
+                title: 'Su reserva fue exitosa. Gracias por elegir nuestra villa.'
             })
             const status = urlParams.get('status')
             const bookingId = urlParams.get('bookingId')
