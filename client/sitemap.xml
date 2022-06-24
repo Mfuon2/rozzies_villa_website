@@ -9,78 +9,513 @@
 
 <url>
   <loc>https://rozziesvilla.co.ke/</loc>
-  <lastmod>2022-02-22T09:06:07+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/index.html</loc>
-  <lastmod>2022-02-22T09:06:07+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/rooms.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/culinaryExperience.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/activities.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T20:02:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/localAttractions.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/safari.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/contact.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/faqs.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/</loc>
+  <lastmod>2022-06-10T00:04:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/prices.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/terms&amp;conditions.html</loc>
-  <lastmod>2022-02-23T18:44:55+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/vipingoDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/fortjesusDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/hallerparkDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/indianoceanDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/sunsetDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://rozziesvilla.co.ke/cultureDetails.html</loc>
-  <lastmod>2022-02-21T21:06:41+00:00</lastmod>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/index.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/rooms.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/culinaryExperience.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/activities.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/localAttractions.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/safari.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/contact.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/faqs.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/prices.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/terms&amp;conditions.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/index.html</loc>
+  <lastmod>2022-06-10T00:04:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/rooms.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/culinaryExperience.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/activities.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/localAttractions.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/safari.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/contact.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/faqs.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/prices.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/terms&amp;conditions.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/index.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/rooms.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/culinaryExperience.html</loc>
+  <lastmod>2022-06-24T16:21:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/activities.html</loc>
+  <lastmod>2022-06-24T16:21:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/localAttractions.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/safari.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/contact.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/faqs.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/prices.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/terms&amp;conditions.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/index.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/rooms.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/culinaryExperience.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/activities.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/localAttractions.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/safari.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/contact.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/faqs.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/prices.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/terms&amp;conditions.html</loc>
+  <lastmod>2022-06-16T20:02:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/index.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/rooms.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/culinaryExperience.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/activities.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/localAttractions.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/safari.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/contact.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/faqs.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/prices.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/terms&amp;conditions.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/vipingoDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/fortjesusDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/hallerparkDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/indianoceanDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/sunsetDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/da/cultureDetails.html</loc>
+  <lastmod>2022-06-16T18:44:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/vipingoDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/fortjesusDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/hallerparkDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/indianoceanDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/sunsetDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/de/cultureDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/vipingoDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/fortjesusDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/hallerparkDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/indianoceanDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/sunsetDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/fr/cultureDetails.html</loc>
+  <lastmod>2022-06-24T16:13:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/vipingoDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/fortjesusDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/hallerparkDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/indianoceanDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/sunsetDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/es/cultureDetails.html</loc>
+  <lastmod>2022-06-21T20:29:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/vipingoDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/fortjesusDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/hallerparkDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/indianoceanDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/sunsetDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://rozziesvilla.co.ke/no/cultureDetails.html</loc>
+  <lastmod>2022-06-09T23:56:14+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
