@@ -29,7 +29,8 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-app.use('/upload-images', upload.array('image'), async(req, res) => {
+app.post('/upload-images', upload.array('image'), async(req, res) => {
+    console.log("here")
     const cat = req.query.category
     const uploader = async(path) => await cloudinary.uploads(path, cat);
     const categories = ["rooms", "culinary", "activities", "local", "tour"];
