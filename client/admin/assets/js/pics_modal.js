@@ -55,10 +55,12 @@ const uploadImages = () => {
         }
         data.append('image', file, file.name);
     });
-    data.append("title",$('#title').val())
-    data.append("description",$('#description').val())
+    const title = $('#title').val();
+    const description = $('#description').val();
+    data.append("title",title)
+    data.append("description",description)
     const settings = {
-        "url": `/upload-images?category=${category}`,
+        "url": `/upload-images?category=${category}&title=${title}&description=${description}`,
         "method": "POST",
         "async": false,
         "cache": false,

@@ -29,29 +29,15 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-app.post('/upload-images', upload.array('image'), async(req, res) => {
-    console.log("here")
+
+
+app.post('/upload-images', upload.single('image'), async(req, res) => {
     const cat = req.query.category
-    const uploader = async(path) => await cloudinary.uploads(path, cat);
     const categories = ["rooms", "culinary", "activities", "local", "tour"];
     if (categories.includes(cat)) {
         if (req.method === 'POST') {
             const urls = []
             const files = req.files;
-            for (const file of files) {
-                const { path } = file;
-                const newPath = await uploader(path)
-                urls.push(newPath)
-                fs.unlinkSync(path)
-                const im = {
-                    path: newPath.url,
-                    category: cat,
-                    imageId: newPath.id,
-                    title: req.body.title,
-                    description: req.body.description
-                }
-                await saveImage(im)
-            }
             res.status(200).json({
                 message: 'images uploaded successfully',
                 data: urls

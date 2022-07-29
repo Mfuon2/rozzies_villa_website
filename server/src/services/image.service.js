@@ -1,16 +1,18 @@
 import {Image} from "../connection";
-import {UuidGenerator} from "../models/booking";
 
 const saveImage = async (body) => {
     try {
-            //console.log(' =======> ' + JSON.stringify(body))
-            return await Image.create(body)
-                .then((data) => {
-                    return data
-                })
-                .catch((err) => {
-                    return err.errors
-                });
+            console.log(' =======> ' + JSON.stringify(body))
+        return await Image.create(body)
+                 .then(async (data) => {
+                     console.log('msg : ' + JSON.stringify(data))
+                     const t = await Image.update({path: data.path + `/${data.imageId}.png`},{where:{imageId:data.imageId}})
+                     return data
+                 })
+                 .catch((err) => {
+                     console.log('msg : ' + JSON.stringify(err.errors))
+                     return err.errors
+                 });
     } catch (e) {
         return e.errors
     }
