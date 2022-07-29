@@ -39,14 +39,14 @@ const update_rooms_gallery = () => {
             console.log(path)
             console.log(description)
             template = `
-              <li>
-                        <figure class="grid__figure">
-                         <a href="${path}" target="_blank" class="glightbox" data-gall="venue-gallery" data-title="${description} &nbsp;">
-                            <img src="${path}" alt="">
-                            <figcaption>${description}</figcaption>
-                            </a>
-                        </figure>
-                    </li>
+              <div class="col-lg-3 col-md-4">
+                    <div class="venue-gallery">
+                        <a href="${path} " class="glightbox" data-gall="venue-gallery" data-title="All rooms have king-size beds with comfortable mattresse, a mosquito net and two dimmable bedside
+                        lamps. The rooms also have spacious closets with built in shelves. <br><br> &nbsp;">
+                            <img src="${path}" alt=" " class="img-fluid">
+                        </a>
+                    </div>
+                </div>
             `
             $(".rooms-gallery-container").append(template);
         }

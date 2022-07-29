@@ -1,43 +1,38 @@
 import * as dotenv from "dotenv";
 import cloudinary from "cloudinary";
 import multer from "multer";
+import {saveImage} from "./image.service";
 
 dotenv.config();
 
-cloudinary.config({
-    cloud_name: process.env.CLOUD_NAME,
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET
-})
+let title = ''
+let description = ''
 
-export const uploads = (file, folder) => {
-    return new Promise(resolve => {
-        cloudinary.uploader.upload(file, (result) => {
-            resolve({
-                url: result.url,
-                id: result.public_id
-            })
-        }, {
-            resource_type: "auto",
-            folder: folder
-        })
-    })
-}
-
-export const deleteCloudImage =  (publicId) => {
-    return new Promise(resolve => {
-        cloudinary.uploader.destroy(publicId, (err, res) => {
-            console.log(res,err)
-        })
-    })
+const save_image_od_db = async (req, path) => {
+    const im = {
+        path: path,
+        category: req.query.category,
+        title: req.query.title,
+        description: req.query.description
+    }
+    const image = await saveImage(im)
+    console.log( ' =============== > ' + image.imageId)
+    return image.imageId
 }
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './uploads/')
+        console.log(req.query.category)
+        console.log(req.query.title)
+        console.log(req.query.description)
+        let path = '../client/assets/img/gallery/'+ req.query.category
+        cb(null, path)
     },
-    filename: function (req, file, cb) {
-        cb(null, new Date().toISOString() + '-' + file.originalname)
+    filename: async function (req, file, cb) {
+        let path = 'assets/img/gallery/'+ req.query.category
+        const id = await save_image_od_db(req, path)
+        const ext = file.mimetype.split('/')[1]
+        cb(null, `${id}.png`)
     }
 })
 
